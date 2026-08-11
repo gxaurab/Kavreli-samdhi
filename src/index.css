@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-360 {
+  animation: spinSlow 8s linear infinite;
+}
+
+/* Custom styling for sleek audio seeker slider */
+input[type="range"] {
+  accent-color: #fbbf24;
+}
+
