@@ -1,12 +1,13 @@
 import { Song, SoundEffect } from '../types';
-import paanMithoChunamaAudio from '../../assets/Paan Mitho Chuna Ma  पान मिठो चुनामा REMIX  BYDJ LAXMAN-G  Indira ,Ghamesh Hari & Sita.mp3';
+import paanMithoChunamaAudio from '../../assets/paan mitho chuna ma REMIX __ nepali dj song __ nepali tiktok viral DJ [R2GyNEeSNR0].mp3';
+import sailoMaCharghareAudio from '../../assets/Sailo Ma Charghare (साईलो म चारघरे ) By Bishwo Dong __ New Nepali Lok Pop Song 2081 [Q9keLcIpmgg].mp3';
 
 export const SONGS_DATA: Song[] = [
   {
     id: 'paan-mitho-chunama',
     title: 'Paan Mitho Chunama (Kavreli Samdhi Anthem)',
     nepaliTitle: 'पान मिठो चुनामा (काभ्रेली सम्धी भाइरल)',
-    artist: 'Chakra Bam, Sushant & Tamang Selo Crew',
+    artist: 'DJ Remix',
     mainTheme: 'Kavreli Samdhi',
     subThemes: ['Kavreli Samdhi', 'TikTok Viral', 'Janti Essentials', 'Long Hair Classics', 'Wedding Bangers'],
     district: 'Kavre',
@@ -14,7 +15,7 @@ export const SONGS_DATA: Song[] = [
     // The actual remix bundled with this app, so the anthem plays without an
     // external preview URL or network connection.
     audioPreviewUrl: paanMithoChunamaAudio,
-    duration: '4:18',
+    duration: '2:00',
     bpm: 128,
     viralScore: 99,
     longHairRating: 5,
@@ -106,15 +107,15 @@ export const SONGS_DATA: Song[] = [
   },
   {
     id: 'sailo-ma-char-ghare',
-    title: 'Sailo Ma Char Ghare (Vintage Tamang Selo)',
-    nepaliTitle: 'साइलो म चार घरे (तामाङ सेलो क्लासिक)',
-    artist: 'Jayananda Lama & Chandra Kumar Dong',
+    title: 'Sailo Ma Charghare',
+    nepaliTitle: 'साईलो म चारघरे',
+    artist: 'Bishwo Dong',
     mainTheme: 'Kavreli Samdhi',
     subThemes: ['Kavreli Samdhi', 'Long Hair Classics', 'Old Cassette', 'Janti Essentials'],
     district: 'Nuwakot',
     youtubeId: 'S4m5v6w7X8Z',
-    audioPreviewUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3',
-    duration: '4:45',
+    audioPreviewUrl: sailoMaCharghareAudio,
+    duration: '4:49',
     bpm: 118,
     viralScore: 89,
     longHairRating: 5,
